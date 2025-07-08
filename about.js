@@ -1,13 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-import { CSSPlugin, gsap } from 'gsap'
-import { Flip } from 'gsap/Flip'
-import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Draggable, InertiaPlugin, SplitText, TextPlugin } from 'gsap/all'
-import Matter from 'matter-js'
-import { setupResizeListener } from '../utility/run-line'
-
 gsap.registerPlugin(
 	Flip,
 	ScrollTrigger,
