@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+
 import { CSSPlugin, gsap } from 'gsap'
 import { Flip } from 'gsap/Flip'
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
@@ -835,4 +837,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   World.add(world, mouseConstraint);
   render.mouse = mouse;
+});
 });
